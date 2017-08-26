@@ -1,0 +1,15 @@
+\addcontentsline{toc}{part}{\protect\numberline{}Conclusion}
+\vspace{1.5cm}
+\begin{center}
+\Huge{{\bf Conclusion}}
+\end{center}
+\vspace{0.5cm}
+This thesis considers two kinds of problems in the field of optimal investment. One is the maximization of the expected utility of the terminal wealth and the other is that of the consumption stream.
+
+In the part of terminal wealth problem, we mainly discuss the problem in discrete time and use many examples to make the algorithm more understandable. We use both martingale method and dynamic programming method for that problem. There is a big difference of these two methods. When applying martingale method, we first obtain the optimal value function directly by theorems, and then the trading strategy can be computed step by step. Conversely, with the dynamic programming method, the trading strategy for each period is computed at first, and the optimal value function is obtained at the last step. With this property of these two methods, the investor can choose an appropriate method depending on whether the strategy or the optimal value is more urgent.
+
+In the other part, we do numerics for different problems. Finite-difference method is one of the most useful numerical methods to solve differential equations. It can even solve the equations which do not have a closed form. We solved a second-order ordinary and a second-order partial differential equations for Merton's problem and the consumption problem with habit formation model, respectively. With the results of the programming, we notice that the errors of the finite-difference method increase when the data are far from the points from which the implementation starts. Besides, when applying finite-difference method, we need to be very careful about the step size. For some cases, it should be small enough to get a more precise estimated value. However, for other cases, it may be too small to result in bigger errors. What is worthy to mention is that for some kinds of problems, for example, infinite-horizon problem, there is no specific boundary conditions to fix a solution. In those cases, what we could do is just setting boundary conditions which make economic sense.
+
+
+
+
